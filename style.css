@@ -820,3 +820,45 @@ body {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+
+    .navbar a {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .home {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .home-img{
+        width: 120px;
+        height: 120px;
+    }
+    .circle {
+        display: none;
+    }
+    .home-content {
+        margin-top: 50px;
+    }
+    .about {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-img {
+        display: none;
+    }
+    .professionals-skills {
+        margin-top: 180px;
+    }
+    .portfolio-content {
+        flex-direction: column;
+    }
+    .row {
+        width: 80%;
+        margin-top:10px ;
+    }
+    .contact {
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+}
